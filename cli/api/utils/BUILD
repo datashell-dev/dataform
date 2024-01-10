@@ -6,10 +6,10 @@ ts_library(
     name = "utils",
     srcs = glob(["**/*.ts"]),
     deps = [
-        "//common/protos",
         "//common/strings",
-        "//core",
+        "//packages/@dataform/core",
         "//protos:ts",
+        "@npm//@dataform/core",
         "@npm//@types/node",
         "@npm//object-sizeof",
     ],

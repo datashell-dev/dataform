@@ -217,6 +217,11 @@
     classnames "^2.2"
     tslib "~1.10.0"
 
+"@dataform/core@3.0.0-alpha.0":
+  version "3.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@dataform/core/-/core-3.0.0-alpha.0.tgz#10c2210f7a58e3bf52b3dbaf9775134a75fce427"
+  integrity sha512-SNeB2q9YVAOTvJnSJzBgrxNWJn7nWqgqegZMrYStiIALp9HCV2mCC7R/YwZ/qwKR9+Jx4IH7pKrdXlTdn9Jz5g==
+
 "@google-cloud/bigquery@^5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@google-cloud/bigquery/-/bigquery-5.6.0.tgz#1f45b23eec328bafe254c193f0f34386a4fe3e7c"

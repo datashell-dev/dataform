@@ -7,8 +7,8 @@ import { Flags } from "df/common/flags";
 import { retry } from "df/common/promises";
 import { deepClone, equals } from "df/common/protos";
 import { StringifiedMap, StringifiedSet } from "df/common/strings/stringifier";
-import { IBigQueryOptions } from "df/core/actions/table";
-import { targetsAreEqual, targetStringifier } from "df/core/targets";
+import { targetsAreEqual, targetStringifier } from "df/packages/@dataform/core/shared";
+import { IBigQueryOptions } from "df/packages/@dataform/core/shared/interfaces";
 import { dataform } from "df/protos/ts";
 
 const CANCEL_EVENT = "jobCancel";

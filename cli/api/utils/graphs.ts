@@ -1,5 +1,5 @@
 import { StringifiedMap } from "df/common/strings/stringifier";
-import { targetStringifier } from "df/core/targets";
+import { targetStringifier } from "df/packages/@dataform/core/shared";
 import { dataform } from "df/protos/ts";
 
 export const combineAllActions = (graph: dataform.ICompiledGraph) => {

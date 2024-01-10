@@ -9,7 +9,7 @@ ts_library(
     name = "core",
     srcs = glob(["*.ts"]),
     deps = [
-        "//core",
+        "@npm//@dataform/core",
     ],
 )
 

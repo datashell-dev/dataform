@@ -10,8 +10,8 @@ ts_library(
     ),
     deps = [
         "//common/protos",
-        "//core",
         "//protos:ts",
+        "@npm//@dataform/core",
         "@npm//@types/glob",
         "@npm//@types/node",
         "@npm//@types/semver",

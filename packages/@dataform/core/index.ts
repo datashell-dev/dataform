@@ -1,1 +1,1 @@
-export { compiler, main, session, supportedFeatures, version } from "df/core";
+export { compiler, main, session, supportedFeatures, version } from "@dataform/core";
