@@ -1,6 +1,8 @@
 import { StringifiedMap } from "df/common/strings/stringifier";
-import { targetStringifier } from "df/packages/@dataform/core/shared";
+import { JSONObjectStringifier } from "df/common/strings/stringifier";
 import { dataform } from "df/protos/ts";
+
+export const targetStringifier = JSONObjectStringifier.create<dataform.ITarget>();
 
 export const combineAllActions = (graph: dataform.ICompiledGraph) => {
   return ([] as Array<
